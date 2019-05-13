@@ -4,15 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{EDDD2E7B-431A-41E9-9107-B2C717058D90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6A0F9FE-3801-4030-BC4F-C3F6424C2C24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iForeach.Extensions.DependencyInjection.Abstractions", "src\DependencyInjection.Abstractions\iForeach.Extensions.DependencyInjection.Abstractions.csproj", "{42E035A0-1173-49D1-9EA4-1A9DE855B2F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{ECE8D7B0-4E0C-45A1-B606-EB761C2D427E}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6A0F9FE-3801-4030-BC4F-C3F6424C2C24}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iForeach.Extensions.DependencyInjection.Abstractions", "src\DependencyInjection.Abstractions\iForeach.Extensions.DependencyInjection.Abstractions.csproj", "{42E035A0-1173-49D1-9EA4-1A9DE855B2F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
