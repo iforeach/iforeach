@@ -31,5 +31,7 @@
 
 ### Version List
 > ##### 2019-05-11
-1. 完成自 [blqw.DI：NamedService](https://github.com/blqw/blqw.DI/tree/master/src/blqw.DI.NamedService) 的代码转换，实现 _**NamedService**_ 支持
-2. 实现 _**KeyedService**_ 的支持
+1. 基于 [blqw.DI.NamedService](https://github.com/blqw/blqw.DI/tree/master/src/blqw.DI.NamedService) 改进，对 NamedService 的 NamedType.Guid 的生成策略进行改进。
+2. 新增 KeyedService 支持，可以不仅仅用 name 标识IoC，还可以用其它类型的对象。
+3. 基于 [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Micorsoft.Extensions.DependencyInjection) 的 IServiceCollection 扩展，丰富并完善 blqw.DI.NamedService 的注册与解析扩展。
+

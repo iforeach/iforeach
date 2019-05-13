@@ -9,7 +9,7 @@
     <Company>利品科技</Company>
     <Product>iForeach 依赖注入</Product>
     <Title>iForeach 依赖注入抽象层</Title>
-    <Description>支持对服务进行使用服务标识名或服务标识键标识的依赖注入</Description>
+    <Description>支持对服务进行使用服务标识名或服务标识键标识的依赖注入，参考自开源项目：https://github.com/blqw/blqw.DI/tree/master/src/blqw.DI.NamedService，</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/iforeach/iforeach.extensions</PackageProjectUrl>
     <RepositoryUrl>git:https://github.com/iforeach/iforeach.extensions</RepositoryUrl>
@@ -17,9 +17,9 @@
     <PackageIconUrl>https://avatars2.githubusercontent.com/u/32897783?s=400&amp;u=fbb14d90e97f2def0582c7b126fc1b2478e49d1f&amp;v=4</PackageIconUrl>
     <Copyright>copyright&amp;copy;Limoral 2019</Copyright>
     <Version>1.0.0-prelease-201902.1</Version>
-    <PackageReleaseNotes>&gt; ##### 2019-05-11
-1. 完成自 [blqw.DI：NamedService](https://github.com/blqw/blqw.DI/tree/master/src/blqw.DI.NamedService) 的代码转换，实现 _**NamedService**_ 支持
-2. 实现 _**KeyedService**_ 的支持</PackageReleaseNotes>
+    <PackageReleaseNotes>1. 基于 blqw.DI.NamedService 改进，对 NamedService 的 NamedType.Guid 的生成策略进行改进。
+2. 新增 KeyedService 支持，可以不仅仅用 name 标识IoC，还可以用其它类型的对象。
+3. 基于 Microsoft.Extensions.DependencyInjection 的 IServiceCollection 扩展，丰富并完善 blqw.DI.NamedService 的注册与解析扩展。</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
